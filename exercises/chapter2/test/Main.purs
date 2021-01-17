@@ -1,6 +1,6 @@
 module Test.Main where
 
-import Prelude
+import Prelude (Unit, discard, negate)
 import Test.MySolutions
 import Effect (Effect)
 import Euler (answer)
